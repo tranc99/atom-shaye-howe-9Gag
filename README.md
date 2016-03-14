@@ -1,13 +1,12 @@
 # Music Box
 
-Stream Music in Atom !
+Browse 9gag without leaving Atom !
 
-Simple and useful music panel inside Atom.
-The player embeds ListenVideo.com and has Spotify's music library for free.
+Go fun your self to blow some steam off.
 
-## Toggle with: "Ctrl + Alt + M"
+## Toggle with: "Ctrl + Alt + 9"
 
 
-![Atom Music Box](https://i.gyazo.com/76b19297101a3165e220ccdeea08864e.jpg)
+![Atom 9gag](https://upload.wikimedia.org/wikipedia/commons/e/e9/9gag_logo.png)
 
-Based on "youtube-pane"
+Based on "Music box": https://github.com/Roobyx/atomMusicBox
