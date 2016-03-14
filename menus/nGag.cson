@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': '9 Gag'
+      'command': 'nGag:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': '9 Gag'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'nGag:toggle'
+        }
+      ]
+    ]
+  }
+]
