@@ -2,7 +2,7 @@
   "name": "ShayHoweBrowser",
   "main": "./lib/nGag",
   "version": "1.0.0",
-  "description": "Browse Shay How and a million websites directly from Atom!",
+  "description": "Browse Shay Howe and a million websites directly from Atom!",
   "keywords": [
     "browser",
     "web",
@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0"
   },
   "readmeFilename": "README.md",
   "dependencies": {
@@ -25,7 +25,7 @@
     "jquery": "2.1.4",
     "jquery-resizable": "1.0.3"
   },
-  
+
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
