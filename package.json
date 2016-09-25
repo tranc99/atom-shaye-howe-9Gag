@@ -2,7 +2,7 @@
   "name": "9Gag",
   "main": "./lib/nGag",
   "version": "1.0.2",
-  "description": "Browse 9 Gag directly from Atom!",
+  "description": "Browse Shay How and a million websites directly from Atom!",
   "keywords": [
     "9gag",
     "fun",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roobyx/atom9gag"
+    "url": "git+https://github.com/tranc99/atom-shaye-howe-9Gag"
   },
   "license": "MIT",
   "engines": {
