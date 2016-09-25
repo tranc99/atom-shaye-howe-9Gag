@@ -27,6 +27,7 @@ module.exports = gagViewerPane =
       # $('.gagViewer').width(width / 3)
       $('.gagViewer').width(width / 3)
       # $('.gagViewer').append('<webview id="nGag" src="http://learn.shayhowe.com" style="display:inline-block; float: right; width:' + width / 3 +'px; height:' + height + 'px;"></webview>')
+      $('.gagViewer').append('<input type="text" name="newsrc" id="newdestination" placeholder="http://learn.shayhowe.com">');
       $('.gagViewer').append('<webview id="nGag" src="http://learn.shayhowe.com" style="display:inline-block; float: right; width:' + width / 3 +'px; height:' + 600 + 'px;"></webview>')
 
       $(window).on 'resize' , ->
