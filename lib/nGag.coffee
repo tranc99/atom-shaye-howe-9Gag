@@ -24,15 +24,21 @@ module.exports = gagViewerPane =
       height = $(window).height()
       console.log height
       width = $(window).width()
+      # $('.gagViewer').width(width / 3)
       $('.gagViewer').width(width / 3)
-      $('.gagViewer').append('<webview id="nGag" src="http://m.9gag.com/" style="display:inline-block; float: right; width:' + width / 3 +'px; height:' + height + 'px;"></webview>')
+      # $('.gagViewer').append('<webview id="nGag" src="http://learn.shayhowe.com" style="display:inline-block; float: right; width:' + width / 3 +'px; height:' + height + 'px;"></webview>')
+      $('.gagViewer').append('<webview id="nGag" src="http://learn.shayhowe.com" style="display:inline-block; float: right; width:' + width / 3 +'px; height:' + 600 + 'px;"></webview>')
+
       $(window).on 'resize' , ->
         height = $(window).height()
         width = $(window).width()
         $('.gagViewer').width(width / 3)
-        $('.gagViewer').height(height)
+        # $('.gagViewer').height(height)
+        $('.gagViewer').height(600)
+        # $('#nGag').width(width / 3)
         $('#nGag').width(width / 3)
-        $('#nGag').height(height)
+        # $('#nGag').height(height)
+        $('#nGag').height(600)
 
 
 
