@@ -1,11 +1,11 @@
 {
-  "name": "9Gag",
+  "name": "ShayHoweBrowser",
   "main": "./lib/nGag",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Browse Shay How and a million websites directly from Atom!",
   "keywords": [
-    "9gag",
-    "fun",
+    "browser",
+    "web",
     "9gag-browser"
   ],
   "activationCommands": {
@@ -25,9 +25,7 @@
     "jquery": "2.1.4",
     "jquery-resizable": "1.0.3"
   },
-  "_shasum": "3d3f1b40ff56e6413db9e25ab42e16398eb50267",
-  "_resolved": "file:..\\d-116214-6252-eevgm3\\package.tgz",
-  "_from": "..\\d-116214-6252-eevgm3\\package.tgz",
+  
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

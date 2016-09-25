@@ -1,7 +1,7 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': '1.0 Shay Howe Browser'
+      'label': 'Shay Howe Browser'
       'command': 'nGag:toggle'
     }
   ]
@@ -9,7 +9,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': '1.0 Shay Howe Browser'
+      'label': 'Shay Howe Browser'
       'submenu': [
         {
           'label': 'Toggle'
