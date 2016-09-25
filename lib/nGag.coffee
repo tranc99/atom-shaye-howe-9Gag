@@ -41,6 +41,11 @@ module.exports = gagViewerPane =
         # $('#nGag').height(height)
         $('#nGag').height(600)
 
+      $("#newdestination").on 'keydown' , (e) ->
+        if e.which == 13
+          newdest = $("#newdestination").val()
+          $("#nGag").attr("src", newdest)
+
 
 
   deactivate: ->
