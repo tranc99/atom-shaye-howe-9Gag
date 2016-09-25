@@ -1,7 +1,7 @@
 {
   "name": "ShayHoweBrowser",
   "main": "./lib/nGag",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Browse Shay Howe and a million websites directly from Atom!",
   "keywords": [
     "browser",
