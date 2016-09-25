@@ -1,7 +1,7 @@
 {
   "name": "ShayHoweBrowser",
   "main": "./lib/nGag",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Browse Shay Howe and a million websites directly from Atom!",
   "keywords": [
     "browser",
@@ -25,7 +25,6 @@
     "jquery": "2.1.4",
     "jquery-resizable": "1.0.3"
   },
-
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
